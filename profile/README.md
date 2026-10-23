@@ -16,15 +16,15 @@ Attribution-first referral and affiliate programs: tracked links and coupons, pa
 | Express | `npm install @referalli/express` | [referalli-js](https://github.com/Referalli/referalli-js) |
 | React Native | `npm install @referalli/react-native` | [referalli-react-native](https://github.com/Referalli/referalli-react-native) |
 | Python | `pip install referalli` | [referalli-python](https://github.com/Referalli/referalli-python) |
-| Ruby | `gem install referalli` | [referalli-ruby](https://github.com/Referalli/referalli-ruby) |
+| Ruby | `gem "referalli", git: "https://github.com/Referalli/referalli-ruby"` (RubyGems soon) | [referalli-ruby](https://github.com/Referalli/referalli-ruby) |
 | Go | `go get github.com/referalli/referalli-go` | [referalli-go](https://github.com/Referalli/referalli-go) |
-| PHP | `composer require referalli/referalli-php` | [referalli-php](https://github.com/Referalli/referalli-php) |
+| PHP | `composer require referalli/referalli-php` with the [VCS repository](https://github.com/Referalli/referalli-php#install) (Packagist soon) | [referalli-php](https://github.com/Referalli/referalli-php) |
 | Swift (iOS, macOS) | `.package(url: "https://github.com/Referalli/referalli-swift", from: "0.1.0")` | [referalli-swift](https://github.com/Referalli/referalli-swift) |
-| Kotlin / JVM | `implementation("com.referalli:referalli-kotlin:0.1.0")` | [referalli-kotlin](https://github.com/Referalli/referalli-kotlin) |
-| Android | `implementation("com.referalli:referalli-android:0.1.0")` | [referalli-android](https://github.com/Referalli/referalli-android) |
+| Kotlin / JVM | `com.referalli:referalli-kotlin` (Maven Central soon; build from source today) | [referalli-kotlin](https://github.com/Referalli/referalli-kotlin) |
+| Android | `com.referalli:referalli-android` (Maven Central soon; build from source today) | [referalli-android](https://github.com/Referalli/referalli-android) |
 | CLI | `npm install -g @referalli/cli` | [referalli-cli](https://github.com/Referalli/referalli-cli) |
 | MCP server | `npx -y @referalli/mcp` | [referalli-mcp](https://github.com/Referalli/referalli-mcp) |
-| OpenAPI and Postman | download from releases | [referalli-openapi](https://github.com/Referalli/referalli-openapi) |
+| OpenAPI and Postman | [openapi.json](https://referalli.com/v1/openapi.json), [openapi.yaml](https://referalli.com/v1/openapi.yaml), [Postman collection](https://github.com/Referalli/referalli-openapi/blob/main/postman_collection.json) | [referalli-openapi](https://github.com/Referalli/referalli-openapi) |
 
 Every SDK defaults to `https://referalli.com` and authenticates with an API key from **Settings → API keys** (`rk_test_…` for test mode).
 
