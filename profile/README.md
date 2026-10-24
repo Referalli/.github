@@ -20,8 +20,8 @@ Attribution-first referral and affiliate programs: tracked links and coupons, pa
 | Go | `go get github.com/referalli/referalli-go` | [referalli-go](https://github.com/Referalli/referalli-go) |
 | PHP | `composer require referalli/referalli-php` with the [VCS repository](https://github.com/Referalli/referalli-php#install) (Packagist soon) | [referalli-php](https://github.com/Referalli/referalli-php) |
 | Swift (iOS, macOS) | `.package(url: "https://github.com/Referalli/referalli-swift", from: "0.1.0")` | [referalli-swift](https://github.com/Referalli/referalli-swift) |
-| Kotlin / JVM | `com.referalli:referalli-kotlin` (Maven Central soon; build from source today) | [referalli-kotlin](https://github.com/Referalli/referalli-kotlin) |
-| Android | `com.referalli:referalli-android` (Maven Central soon; build from source today) | [referalli-android](https://github.com/Referalli/referalli-android) |
+| Kotlin / JVM | `com.github.Referalli:referalli-kotlin:0.2.0` from [JitPack](https://jitpack.io/#Referalli/referalli-kotlin) (Maven Central soon) | [referalli-kotlin](https://github.com/Referalli/referalli-kotlin) |
+| Android | `com.github.Referalli:referalli-android:0.2.0` from [JitPack](https://jitpack.io/#Referalli/referalli-android) (Maven Central soon) | [referalli-android](https://github.com/Referalli/referalli-android) |
 | CLI | `npm install -g @referalli/cli` | [referalli-cli](https://github.com/Referalli/referalli-cli) |
 | MCP server | `npx -y @referalli/mcp` | [referalli-mcp](https://github.com/Referalli/referalli-mcp) |
 | OpenAPI and Postman | [openapi.json](https://referalli.com/v1/openapi.json), [openapi.yaml](https://referalli.com/v1/openapi.yaml), [Postman collection](https://github.com/Referalli/referalli-openapi/blob/main/postman_collection.json) | [referalli-openapi](https://github.com/Referalli/referalli-openapi) |
